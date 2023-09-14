@@ -55,7 +55,7 @@ Create a movie discovery web application that allows users to search for movies,
 
 1. Clone this repository: `https://github.com/iroatu08/hng_task_2.git`
 2. Change to the project directory: `cd hng_task_2`
-4. Create a .env file at the Root dir and add token to REACT_APP_API_KEY = ""
+4. Create a .env file at the Root dir and add token to `REACT_APP_API_KEY = ""`
 3. Install dependencies: `npm install`
 
 ## Usage
