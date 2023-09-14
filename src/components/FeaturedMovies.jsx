@@ -14,7 +14,7 @@ const FeaturedMovies = () => {
     const options = {
       headers: {
         accept: "application/json",
-        Authorization: process.env.REACT_APP_API_KEY
+        Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YmM2NjQxZTZkNGVhNTkxYzMzZmIyZjU2YTU5M2RkZCIsInN1YiI6IjYwZTBhZTc0MWU5MjI1MDA0NjI2ZWVlOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.oHMwZbgLwKgCl3dQEnKFaMgPW9yK95q-Q5SQE2bIC_I"
       },
     };
   
