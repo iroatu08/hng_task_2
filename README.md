@@ -1,6 +1,5 @@
 # Movie Discovery Web Application
 
-![Movie Discovery](link_to_screenshot_or_logo.png)
 
 ## Table of Contents
 - [Objective](#objective)
