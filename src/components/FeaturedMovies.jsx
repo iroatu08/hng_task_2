@@ -23,7 +23,7 @@ const FeaturedMovies = () => {
         const getMovieRequest = async () => {
           setLoading(true);
           try {
-            const url = `https://api.themoviedb.org/3/movie/popular?language=en-US&page=1`;
+            const url = `https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1`;
             const response = await axios.get(url, options);
             const top10Movies = response.data.results.slice(0, 10);
             if (top10Movies.length === 0) {
