@@ -17,7 +17,7 @@ const Home = () => {
   const options = {
     headers: {
       accept: "application/json",
-      Authorization: process.env.REACT_APP_API_KEY
+      Authorization:"Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YmM2NjQxZTZkNGVhNTkxYzMzZmIyZjU2YTU5M2RkZCIsInN1YiI6IjYwZTBhZTc0MWU5MjI1MDA0NjI2ZWVlOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.oHMwZbgLwKgCl3dQEnKFaMgPW9yK95q-Q5SQE2bIC_I"
     },
   };
 
@@ -75,7 +75,7 @@ const Home = () => {
         ) : error ? (
           <p className="text-red-500 text-xl">{error}</p>
         ) : (
-          <div className="grid grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
             {searchResults.map((movie) => (
               <div data-testid="movie-card" key={movie.id} className="flex flex-col gap-[12px]">
                 <Link to={`/movie/${movie.id}`}>

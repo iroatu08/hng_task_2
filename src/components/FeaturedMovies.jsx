@@ -64,7 +64,7 @@ const FeaturedMovies = () => {
         <p className="text-[24px]">Error: {error}</p>
       ) : (
         <div className="overflow-x-auto">
-          <div className="grid grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
             {movies.map((movie, index) => (
               <>
                 <div
